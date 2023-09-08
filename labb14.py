@@ -10,6 +10,8 @@ class Otdel:
 
     def redo_name(self, newname):
         self.name = newname
+    def add_nomer_zala(self,amount):
+        self.nomer_zala += amount
 
 class Cloth(Otdel):
     '''potomok_otdela'''
